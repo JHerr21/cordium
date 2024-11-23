@@ -1,5 +1,7 @@
 import cv2
 
+# added comment
+
 def capture_video():
     cap = cv2.VideoCapture(0)
     if cap.isOpened() == False:
